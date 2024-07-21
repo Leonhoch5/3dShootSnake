@@ -1,0 +1,17 @@
+{
+    "name": "3d-shooter-snake",
+    "version": "1.0.0",
+    "description": "A 3D shooter version of snake game with lobby, account, and friend system using Node.js and Socket.io",
+    "main": "server/server.js",
+    "scripts": {
+      "start": "node server/server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.3",
+      "socket.io": "^4.1.2"
+    },
+    "devDependencies": {},
+    "author": "qoig",
+    "license": "ISC"
+  }
+  

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Shooter Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="accountContainer">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button id="createAccountButton">Create Account</button>
+        <button id="loginButton">Login</button>
+    </div>
+    <div id="lobbyContainer">
+        <button id="joinLobbyButton">Join Lobby</button>
+        <button id="leaveLobbyButton">Leave Lobby</button>
+        <div id="lobbyStatus"></div>
+    </div>
+    <div id="friendContainer">
+        <input type="text" id="friendId" placeholder="Friend ID">
+        <button id="addFriendButton">Add Friend</button>
+        <button id="removeFriendButton">Remove Friend</button>
+        <div id="friendList"></div>
+    </div>
+    <div id="gameContainer"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
